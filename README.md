@@ -7,7 +7,7 @@ The pages I created are "Physics.html", "Computer.html" and "Maths.html".
 
 Here are GitHub link for all the pages:
 
-index.html=
-Physics.html=
-Computer.html=
-Maths.html=
+index.html= https://jaspreetsingh1509.github.io/html_project/
+Physics.html= https://jaspreetsingh1509.github.io/html_project/Physics.html
+Computer.html= https://jaspreetsingh1509.github.io/html_project/Computer.html
+Maths.html= https://jaspreetsingh1509.github.io/html_project/Maths.html
