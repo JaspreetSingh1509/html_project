@@ -1,0 +1,262 @@
+header {
+    text-shadow: rgb(14, 119, 151) 2px 1px;
+    background: linear-gradient(to bottom, rgb(195, 229, 240), rgb(101, 206, 238));
+    border-bottom: 4px solid rgb(14, 119, 151);
+    margin: 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+ul#NavigationBar{
+    background: rgb(195, 229, 240);
+    border-bottom: 4px solid rgb(14, 119, 151);
+    text-align: center;
+    height: 25px;
+}
+ul#NavigationBar li{
+    display: inline;
+}
+ul a {
+    font-weight: bold;
+    color: rgb(192, 80, 80);
+}
+ul a:hover {
+    color: rgb(192, 80, 80);
+}
+#sidebar ul {
+    padding-left: 1em;
+}
+
+ul {
+    display: flexbox;
+    justify-content: center;
+    padding-top: 0.5em;
+    margin: 0;
+}
+
+ul li {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    margin: 0 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+.new ul li:hover ul {
+    opacity: 1;
+}
+
+.new ul li ul li:hover {
+    background-color: rgb(173, 37, 37);
+}
+
+.new ul li a {
+    width: 100%;
+    list-style: none;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    width: 1500px;
+    border: 4px solid rgb(14, 119, 151);
+    box-shadow: black;
+    margin: auto;
+    background-color: rgb(248, 204, 204);
+    
+}
+table {
+    table-layout: fixed;
+    border: 1px solid rgb(173, 37, 37);
+    size: 12ch;
+  }
+  
+  td {
+    border: 1px solid rgb(14, 119, 151);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+p{
+    margin-left: 1em;
+    font-size: x-large;
+    font-style: initial;
+    color: rgb(40, 31, 156);
+}
+form{
+    display: inline-block;
+    width: 800px;
+    background-color:  rgb(195, 229, 240);
+    border-color: black;
+    border: 6em;
+    margin-left: 22em;
+}
+
+ ol {
+    display: flexbox;
+    justify-content: center;
+    padding-top: 0.5em;
+    margin: 0;
+}
+
+ol li {
+    color: rgb(40, 31, 156);
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    margin: 0 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+.new ol li:hover ul {
+    opacity: 1;
+}
+
+.new ol li ol li:hover {
+    background-color: rgb(173, 37, 37);
+}
+
+.new ol li a {
+    width: 100%;
+    list-style: none;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    color: rgb(221, 55, 55);
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(221, 55, 55);
+    margin: 1.2em 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    color: rgb(221, 55, 55);
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(221, 55, 55);
+}
+
+h5 {
+    font-size: 25px;
+    margin: 0;
+    color: rgb(221, 55, 55);
+}
+
+a {
+    color: rgb(221, 55, 55);
+}
+
+a:hover {
+    color: rgb(48, 38, 138);
+}
+
+ol a {
+    font-weight: bold;
+    color: rgb(48, 38, 138);
+}
+
+#leftdiv {
+    margin-left: 2em;
+    float: left;
+    width: 282px;
+}
+
+#sidebar ul {
+    padding-left: 1em;
+}
+
+section {
+    margin-left: 345px;
+    width: 550px;
+    height: 90em;
+}
+
+main {
+    column-count: 2;
+}
+
+ol a:hover {
+    color: rgb(192, 80, 80);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+header div {
+    width: fit-content;
+    margin-left: 13em;
+}
+
+header img {
+    float: left;
+    padding : 1em;
+}
+
+footer {
+    background: rgb(101, 206, 238);
+    height: 130px;
+    float: center;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-size: large;
+    text-decoration-color: rgb(235, 229, 229);
+}
+
+footer p {
+    padding-top: 1.25em;
+}
+
+#panel, #flip {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+  }
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  #flip{
+      text-align: center;
+      background-color: rgb(195, 229, 240);
+      border: 2px solid rgb(14, 119, 151);
+  }
+  #flip:hover{
+    border :5px solid rgb(14, 45, 136);
+  }
